@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: swi-api-gateway
+  cloud:
+    gateway:
+      server:
+        webflux:      
+          routes:
+          - id: pizza-tracker
+            uri: http://localhost:8082
+            predicates:
+            - Path=/tracker/**           
