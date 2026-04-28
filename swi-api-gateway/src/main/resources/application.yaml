@@ -12,4 +12,4 @@ spring:
           - id: swi-api-signing
             uri: http://localhost:8082
             predicates:
-            - Path=/api/v1/**           
+            - Path=/api/v1/**, /css/**           
