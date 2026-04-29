@@ -13,7 +13,7 @@
 
 	<groupId>com.pyramix.cloud</groupId>
 	<artifactId>swi-api-gateway</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 
 	<name>swi-api-gateway</name>
 	<description>API Gateway for all services</description>
